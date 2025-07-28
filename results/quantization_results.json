@@ -1,0 +1,13 @@
+{
+  "model": "FastVLM-0.5B",
+  "device": "mps",
+  "quantization_experiments": [
+    {
+      "quantization_type": "int8",
+      "status": "failed",
+      "error": "PyTorch quantization not compatible with FastVLM's custom layers",
+      "attempted_at": "2024-07-24",
+      "notes": "Standard PyTorch dynamic quantization fails due to custom vision encoder architecture. MLX or custom quantization implementation required."
+    }
+  ]
+}

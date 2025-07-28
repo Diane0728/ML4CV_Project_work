@@ -1,0 +1,78 @@
+{
+  "model_path": "ml-fastvlm/checkpoints/llava-fastvithd_0.5b_stage3",
+  "device": "mps",
+  "load_time": 5.065318822860718,
+  "total_params": 622403552,
+  "benchmarks": [
+    {
+      "prompt": "Describe this image in detail.",
+      "avg_time": 3.9966413974761963,
+      "std_time": 0.038814630445355124,
+      "avg_tokens": 57.0,
+      "tokens_per_second": 14.261975076371481,
+      "runs": [
+        4.054962158203125,
+        3.960139036178589,
+        3.9735610485076904,
+        4.030929803848267,
+        3.9636149406433105
+      ]
+    },
+    {
+      "prompt": "What shapes do you see in this image?",
+      "avg_time": 4.048638391494751,
+      "std_time": 0.014113392732870399,
+      "avg_tokens": 54.0,
+      "tokens_per_second": 13.337817502655081,
+      "runs": [
+        4.035574913024902,
+        4.05839204788208,
+        4.0664381980896,
+        4.053809881210327,
+        4.028976917266846
+      ]
+    },
+    {
+      "prompt": "What text is written in the image?",
+      "avg_time": 4.189236402511597,
+      "std_time": 0.1622964151929421,
+      "avg_tokens": 55.0,
+      "tokens_per_second": 13.128884291902347,
+      "runs": [
+        4.064493179321289,
+        4.0736470222473145,
+        4.225107908248901,
+        4.492202997207642,
+        4.090730905532837
+      ]
+    },
+    {
+      "prompt": "Count the number of shapes in the image.",
+      "avg_time": 4.177625370025635,
+      "std_time": 0.04089328782556993,
+      "avg_tokens": 54.0,
+      "tokens_per_second": 12.92600346298372,
+      "runs": [
+        4.162872076034546,
+        4.148882865905762,
+        4.193660020828247,
+        4.2491631507873535,
+        4.133548736572266
+      ]
+    },
+    {
+      "prompt": "What colors are the shapes?",
+      "avg_time": 4.152805328369141,
+      "std_time": 0.016884539820141226,
+      "avg_tokens": 57.0,
+      "tokens_per_second": 13.725661448807816,
+      "runs": [
+        4.167938709259033,
+        4.155300140380859,
+        4.120314836502075,
+        4.156763792037964,
+        4.1637091636657715
+      ]
+    }
+  ]
+}
