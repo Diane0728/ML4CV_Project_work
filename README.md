@@ -38,7 +38,7 @@ ML4CV_FastVLM_Project/
 ### Step 1: Clone the Project
 
 ```bash
-cd ~/Laboratory/ML4CV\ project\ work/
+cd ~/Laboratory/ML4CV_project_work/
 cd ML4CV_FastVLM_Project
 ```
 
