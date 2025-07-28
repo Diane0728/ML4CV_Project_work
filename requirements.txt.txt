@@ -1,0 +1,25 @@
+# Core dependencies for FastVLM Mobile Optimization Project
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+pillow>=9.5.0
+numpy>=1.24.0
+matplotlib>=3.5.0
+
+# Optional: Jupyter notebook support
+notebook
+
+# Optional: Data manipulation
+pandas
+
+# FastVLM 
+# pip install -e ml-fastvlm
+
+# Optional: For quantization experiments
+# torch.ao.quantization is included in PyTorch
+
+# Optional: For MLX framework experiments (Apple Silicon optimization)
+# pip install -e mlx-vlm
+
+# Optional: For Core ML conversion
+coremltools>=7.0
