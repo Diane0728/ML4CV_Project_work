@@ -230,24 +230,11 @@ The project provides significant learning outcomes in:
 ## 10. Appendix
 
 ### 10.1 System Requirements
-- **Python**: 3.7+
+- **Python**: 3.9+
 - **PyTorch**: 1.9+
 - **Transformers**: 4.40.0+
 - **Memory**: 8GB+ recommended
 - **Storage**: 2GB+ for models and data
-
-### 10.2 File Structure
-```
-project/
-├── colab_vlm_benchmark.py        # Main benchmarking script
-├── baseline_fp32.json            # FP32 benchmark results
-├── quantized_int8.json           # Quantized benchmark results
-├── benchmark_results_analysis.png # Performance visualization
-├── benchmark_summary.csv         # Results summary
-└── data/
-    ├── coco/images/val2017/      # Test images
-    └── annotations/              # COCO annotations
-```
 
 ---
 
