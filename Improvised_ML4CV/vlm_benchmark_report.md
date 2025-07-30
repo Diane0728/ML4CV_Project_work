@@ -235,6 +235,14 @@ The project provides significant learning outcomes in:
 - **Transformers**: 4.40.0+
 - **Memory**: 8GB+ recommended
 - **Storage**: 2GB+ for models and data
+  
+
+## References
+
+- BLIP: Bootstrapping Language-Image Pre-training (Salesforce Research)
+- PyTorch Dynamic Quantization Documentation
+- COCO Dataset for Image Captioning
+- Industry benchmarks from Red Hat Developer and NVIDIA Technical Blog
 
 ## 📧 Contact
 
