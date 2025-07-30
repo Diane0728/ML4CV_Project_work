@@ -236,6 +236,14 @@ The project provides significant learning outcomes in:
 - **Memory**: 8GB+ recommended
 - **Storage**: 2GB+ for models and data
 
+## 📧 Contact
+
+For questions about this implementation, refer to the course materials or the original FastVLM repository.
+
+---
+**Course**: 91288 - Project Work in Machine Learning for Computer Vision  
+**Institution**: University of Bologna  
+**Year**: 2024/2025
 ---
 
 **Report Generated**: July 30, 2025  
